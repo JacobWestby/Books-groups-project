@@ -1,24 +1,124 @@
 body {
   width: 80%;
   margin: 0 auto;
+  font-family: 'Nobile', sans-serif;
 }
 
 .about__us {
-  display: flex;
-  justify-content: space-between;
   width: 100%;
+  margin-top: 100px;
 }
 
-.about__us-text {
-  width: 40%;
+.content__cont-1,
+.content__cont-2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 100px;
 }
 
-.about__us-image {
-  width: 60%;
+.about__us-text1,
+.about__us-text2 {
+  width: 50%;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.about__us-text1 > h2 {
+  letter-spacing: 2px;
+  color: #609e88;
+}
+
+.about__us-text2 > h2 {
+  letter-spacing: 2px;
+  color: #609e88;
+}
+
+.about__us-image1 {
+  width: 50%;
   display: flex;
   justify-content: flex-end;
 }
 
-.about__us-image > img {
+.about__us-image1 > img {
   width: 500px;
 }
+
+.about__us-image2 > img {
+  width: 500px;
+}
+
+/* .layout-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.forum2 {
+  width: 1500px;
+  padding: 15px 20px;
+  margin-right: 200px;
+  margin-left: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.forum {
+  width: 2000px;
+  padding: 15px 20px;
+  background-color: #609e88;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px #44433b;
+  margin-right: 200px;
+  margin-left: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.loggo {
+  width: 140px;
+}
+
+.search {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.white-button1 {
+  border: 1px solid black;
+  color: white;
+  padding: 10px;
+  width: 50px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #4c7e6c;
+}
+
+.white-button1:hover {
+  cursor: grab;
+  background-color: #609e88;
+}
+
+.orange-button1 {
+  border: 1px solid black;
+  padding: 10px;
+  width: 60px;
+  background-color: #9e8860;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+.orange-button1:hover {
+  cursor: grab;
+  background-color: #609e88;
+}
+
+.hover-layout:hover {
+  cursor: grab;
+  opacity: 0.5;
+  color: #4c7e6c;
+} */
