@@ -1,12 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/CSS" href="styles/contact.css" />
     <title>Contact</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <form class="form-questions" autocomplete="off">
+      <h2 class="main-info">Questions? We are here for you!</h2>
+      <label for="name" class="label">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="input"
+        placeholder="Enter your name"
+      />
+      <label for="email" class="label">Email adress</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="input"
+        placeholder="Enter your Email"
+      />
+      <label for="free-text" class="label">Subject</label>
+      <input
+        type="text"
+        name="free-text"
+        id="free-text"
+        class="input"
+        placeholder="Enter subject"
+      />
+      <label for="free-text" class="label">Message</label>
+      <input
+        type="text"
+        name="free-text"
+        id="free-text"
+        class="input"
+        placeholder="Write your message here"
+      />
+      <button type="submit" class="button">Send message</button>
+    </form>
+    <div class="contacts">
+      <h3>Opening hours</h3>
+      <ul>
+        <li>Mon - Fri 10.00 - 19.00</li>
+        <li>Sat - Sun 10.00 - 15.00</li>
+      </ul>
+      <h3>Visit our bookshop</h3>
+      <p>11 Birdsnests road Woodstown SW1Y 4LR Elkland</p>
+      <h3>Telephone</h3>
+      <p>07911 123456</p>
+      <p>Call us everyday during the shops opening hours</p>
+    </div>
+    <form class="mailinglist-form">
+      <h2>Sign up to our shop’s emails</h2>
+      <h3>Hear first about our flora and fauna events, book clubs and news</h3>
+      <label for="email" class="label">Email adress</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="input"
+        placeholder="Enter your Email"
+      />
+      <button type="submit" class="button">Join mailing list</button>
+    </form>
+  </body>
 </html>
