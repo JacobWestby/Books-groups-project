@@ -72,4 +72,18 @@ button {
   align-items: center;
   flex-direction: column;
   margin-top: 20px;
+  width: 40%;
+}
+
+img {
+  width: 400px;
+  height: 280px;
+}
+
+.main2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-bottom: 2rem;
 }
