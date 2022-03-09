@@ -109,3 +109,61 @@
     opacity: 0.5;
     color:#4c7e6c;
 }
+
+.main-title{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    border: 1px solid black;
+    color: white;
+    background-color: #4c7e6c;
+    position: absolute;
+    width: 1000px;
+    top: 430px;
+    right: 450px;
+}
+
+.main-text{
+    font-family: 'Nobile', sans-serif;
+    font-size:18px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    color: white;
+    background-color: #9E8860;
+    position: absolute;
+    padding:15px;
+    height: 310px;
+    width: 700px;
+    top: 550px;
+    left: 320px;
+}
+
+.book1{
+    position: absolute;
+    padding:15px;
+    height: 310px;
+    width: 200px;
+    top: 580px;
+    right: 620px;
+}
+
+.book2{
+    position: absolute;
+    padding:15px;
+    height: 310px;
+    width: 200px;
+    top: 530px;
+    right: 400px;
+}
+
+
+footer {
+     height: 20vh;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+}
+
