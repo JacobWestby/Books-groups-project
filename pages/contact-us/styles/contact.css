@@ -103,8 +103,8 @@
 }
 
 body {
-  width: auto;
-  max-width: 100%;
+  margin: 0auto;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -113,6 +113,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  width: 80%;
 }
 
 input[type="text"],
@@ -130,7 +131,7 @@ textarea {
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #609e88;
   padding: 20px;
   max-width: 50%;
 }
