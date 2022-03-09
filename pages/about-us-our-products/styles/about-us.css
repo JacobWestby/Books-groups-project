@@ -1,13 +1,7 @@
 body {
-  /* width: 80%; */
   margin: 0 auto;
   font-family: 'Nobile', sans-serif;
 }
-
-/* header {
-  width: 80%;
-  margin: 0 auto;
-} */
 
 .screen {
   height: 500px;
@@ -18,7 +12,7 @@ body {
 .side-background-left {
   background-image: url(../images/träd.jpg);
   width: 8%;
-  height: 2600px;
+  height: 2868px;
   position: absolute;
   top: 0px;
   float: left;
@@ -30,7 +24,7 @@ body {
   float: right;
   background-image: url(../images/träd.jpg);
   width: 8%;
-  height: 2600px;
+  height: 2868px;
   background-size: cover;
   background-position: center;
   transform: scaleX(-1);
@@ -39,8 +33,6 @@ body {
 }
 
 .layout-top {
-  /* display: flex;
-  justify-content: center; */
   margin: 0 auto;
   width: 80%;
 }
@@ -56,7 +48,6 @@ body {
 
 .form2 {
   width: 80%;
-  /* float: left; */
   position: absolute;
   padding: 15px 0px;
   background-color: #609e88;
@@ -82,7 +73,7 @@ body {
   border: 1px solid black;
   color: white;
   padding: 10px;
-  width: 50px;
+  width: 60px;
   margin: 20px;
   padding: 20px;
   background-color: #4c7e6c;
@@ -206,77 +197,10 @@ body {
   box-shadow: 0px 0px 6px 2px #02030349;
 }
 
-/* .layout-top {
+footer {
+  position: absolute;
+  height: 20vh;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  justify-content: center;
 }
-
-.forum2 {
-  width: 1500px;
-  padding: 15px 20px;
-  margin-right: 200px;
-  margin-left: 200px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.forum {
-  width: 2000px;
-  padding: 15px 20px;
-  background-color: #609e88;
-  border-radius: 5px;
-  box-shadow: 2px 2px 8px #44433b;
-  margin-right: 200px;
-  margin-left: 200px;
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-}
-
-.loggo {
-  width: 140px;
-}
-
-.search {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.white-button1 {
-  border: 1px solid black;
-  color: white;
-  padding: 10px;
-  width: 50px;
-  margin: 20px;
-  padding: 20px;
-  background-color: #4c7e6c;
-}
-
-.white-button1:hover {
-  cursor: grab;
-  background-color: #609e88;
-}
-
-.orange-button1 {
-  border: 1px solid black;
-  padding: 10px;
-  width: 60px;
-  background-color: #9e8860;
-  color: white;
-  margin: 20px;
-  padding: 20px;
-}
-
-.orange-button1:hover {
-  cursor: grab;
-  background-color: #609e88;
-}
-
-.hover-layout:hover {
-  cursor: grab;
-  opacity: 0.5;
-  color: #4c7e6c;
-} */
