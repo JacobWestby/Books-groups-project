@@ -1,11 +1,32 @@
 
+
+.side-background-left{
+    background-image: url(../images/bjork.jpg);
+    width: 11%;
+    height: 900px;
+    float: left;
+    background-size: cover;
+
+}
+
+.side-background-right{
+    float: right;
+    background-image: url(../images/bjork.jpg);
+    width: 199px;
+    height: 900px;
+}
+
 .layout-top{
     display:flex;
     justify-content:space-between;
     align-items: flex-end;
+
 }
 
-.forum2 {
+.form {
+    max-width: 80%;
+    float: left;
+    position: absolute;
 	width: 1500px;
     padding: 15px 20px;
     margin-right: 200px;
@@ -13,11 +34,15 @@
     display:flex;
     justify-content:space-evenly;
     align-items: center;
+    top: 15px;
+   
 }
 
-
-.forum {
-	width: 2000px;
+.form2 {
+    max-width: 80%;
+    float: left;
+    position: absolute;
+	width: 1450px;
     padding: 15px 20px;
     background-color: #609e88 ;
 	border-radius: 5px;
@@ -26,7 +51,8 @@
     margin-left: 200px;
     display:flex;
     justify-content:space-around;
-    align-items: flex-end;
+    align-items: center;
+    top: 200px;
 }
 
 .loggo{
@@ -76,5 +102,4 @@
     cursor:grab;
     opacity: 0.5;
     color:#4c7e6c;
-    
 }
