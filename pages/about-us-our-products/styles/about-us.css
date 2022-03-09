@@ -4,6 +4,110 @@ body {
   font-family: 'Nobile', sans-serif;
 }
 
+.side-background-left {
+  background-image: url(../images/träd.jpg);
+  width: 200px;
+  height: 900px;
+  float: left;
+  background-size: cover;
+  background-position: center;
+}
+
+.side-background-right {
+  float: right;
+  background-image: url(../images/träd.jpg);
+  width: 199px;
+  height: 900px;
+  background-size: cover;
+  background-position: center;
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: 'FlipH';
+}
+
+.layout-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.form {
+  max-width: 80%;
+  float: left;
+  position: absolute;
+  width: 1489px;
+  padding: 15px 20px;
+  margin-right: 200px;
+  margin-left: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  top: 15px;
+}
+
+.form2 {
+  max-width: 80%;
+  float: left;
+  position: absolute;
+  width: 1449px;
+  padding: 15px 20px;
+  background-color: #609e88;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px #44433b;
+  margin-right: 200px;
+  margin-left: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 200px;
+}
+
+.loggo {
+  width: 140px;
+}
+
+.search {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.white-button1 {
+  border: 1px solid black;
+  color: white;
+  padding: 10px;
+  width: 50px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #4c7e6c;
+}
+
+.white-button1:hover {
+  cursor: grab;
+  background-color: #609e88;
+}
+
+.orange-button1 {
+  border: 1px solid black;
+  padding: 10px;
+  width: 60px;
+  background-color: #9e8860;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+.orange-button1:hover {
+  cursor: grab;
+  background-color: #609e88;
+}
+
+.hover-layout:hover {
+  cursor: grab;
+  opacity: 0.5;
+  color: #4c7e6c;
+}
+
 .about__us {
   width: 100%;
   margin-top: 100px;
