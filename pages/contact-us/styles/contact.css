@@ -1,7 +1,7 @@
 body {
   /* width: 80%; */
   margin: 0 auto;
-  font-family: "Nobile", sans-serif;
+  font-family: 'Nobile', sans-serif;
 }
 
 .screen {
@@ -11,7 +11,7 @@ body {
 }
 
 .side-background-left {
-  background-image: url(../images/träd.jpg);
+  background-image: url('../images/träd.jpg');
   width: 8%;
   height: 1500px;
   position: absolute;
@@ -23,19 +23,17 @@ body {
 
 .side-background-right {
   float: right;
-  background-image: url(../images/träd.jpg);
+  background-image: url('../images/träd.jpg');
   width: 8%;
   height: 1500px;
   background-size: cover;
   background-position: center;
   transform: scaleX(-1);
   filter: FlipH;
-  -ms-filter: "FlipH";
+  -ms-filter: 'FlipH';
 }
 
 .layout-top {
-  /* display: flex;
-  justify-content: center; */
   margin: 0 auto;
   width: 80%;
 }
@@ -55,7 +53,6 @@ h1 {
 
 .form2 {
   width: 80%;
-  /* float: left; */
   position: absolute;
   padding: 15px 0px;
   background-color: #609e88;
@@ -77,29 +74,30 @@ h1 {
   align-items: center;
 }
 
+/* There is an issue where input[type=text] is somehow styling the buttons. I've tried fixing it */
+/* Using the important tag on the width but it doesn't work. // Jacob */
+
 .white-button1 {
   border: 1px solid black;
   color: white;
-  padding: 10px;
-  width: 60px;
+  width: 60px !important;
   margin: 20px;
   padding: 20px;
   background-color: #4c7e6c;
 }
 
-.white-button1:hover {
-  cursor: grab;
-  background-color: #609e88;
-}
-
 .orange-button1 {
   border: 1px solid black;
-  padding: 10px;
-  width: 60px;
+  width: 60px !important;
   background-color: #9e8860;
   color: white;
   margin: 20px;
   padding: 20px;
+}
+
+.white-button1:hover {
+  cursor: grab;
+  background-color: #609e88;
 }
 
 .orange-button1:hover {
@@ -126,8 +124,28 @@ h1 {
   justify-content: space-evenly;
 }
 
-input[type="text"],
-select,
+input[type='text'] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
 textarea {
   width: 100%;
   padding: 12px;
@@ -146,14 +164,14 @@ textarea {
   max-width: 50%;
 }
 
-button {
+.form-button {
   height: 42px;
   width: 100px;
   background-color: #9e8860;
   border-radius: 5px;
   border: none;
   cursor: pointer;
-  font-family: "Nobile", sans-serif;
+  font-family: 'Nobile', sans-serif;
 }
 
 .contacts {
