@@ -1,0 +1,206 @@
+body {
+  margin: 0 auto;
+  font-family: 'Nobile', sans-serif;
+}
+
+.screen {
+  height: 500px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.side-background-left {
+  background-image: url(../images/träd.jpg);
+  width: 8%;
+  height: 2868px;
+  position: absolute;
+  top: 0px;
+  float: left;
+  background-size: cover;
+  background-position: center;
+}
+
+.side-background-right {
+  float: right;
+  background-image: url(../images/träd.jpg);
+  width: 8%;
+  height: 2868px;
+  background-size: cover;
+  background-position: center;
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: 'FlipH';
+}
+
+.layout-top {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.form {
+  width: 80%;
+  padding: 15px 20px;
+  margin-right: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form2 {
+  width: 80%;
+  position: absolute;
+  padding: 15px 0px;
+  background-color: #609e88;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px #44433b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 200px;
+}
+
+.loggo {
+  width: 140px;
+}
+
+.search {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.white-button1 {
+  border: 1px solid black;
+  color: white;
+  padding: 10px;
+  width: 60px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #4c7e6c;
+}
+
+.white-button1:hover {
+  cursor: grab;
+  background-color: #609e88;
+}
+
+.orange-button1 {
+  border: 1px solid black;
+  padding: 10px;
+  width: 60px;
+  background-color: #9e8860;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+.orange-button1:hover {
+  cursor: grab;
+  background-color: #609e88;
+}
+
+.hover-layout:hover {
+  cursor: grab;
+  opacity: 0.5;
+  color: #4c7e6c;
+}
+
+/* ABOUT US  */
+
+.about__us {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.content__cont-1,
+.content__cont-2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.about__us-text1,
+.about__us-text2 {
+  width: 50%;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.about__us-text1 > h2 {
+  letter-spacing: 2px;
+  color: #609e88;
+}
+
+.about__us-text2 > h2 {
+  letter-spacing: 2px;
+  color: #609e88;
+}
+
+.about__us-image1 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about__us-image1 > img {
+  width: 500px;
+}
+
+.about__us-image2 > img {
+  width: 500px;
+}
+
+.our__products {
+  border-top: 1px solid #609e88a6;
+  padding-top: 100px;
+  padding-left: 80px;
+  padding-bottom: 80px;
+  /* width: 80%; */
+  height: 140vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #609e8810;
+  margin: 0 auto;
+}
+
+.our__products-cont {
+  margin: 0 auto;
+  width: 80%;
+  max-height: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.our__products-cont:not(:nth-child(1)) {
+  border-top: 1px solid #609e884b;
+  padding-top: 85px;
+}
+
+.our__products-text {
+  max-width: 400px;
+  line-height: 1.8;
+}
+
+.our__products-text h3 {
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+.our__products-text p {
+  opacity: 0.7;
+}
+
+.our__products img {
+  max-width: 300px;
+  box-shadow: 0px 0px 6px 2px #02030349;
+}
+
+footer {
+  position: absolute;
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
