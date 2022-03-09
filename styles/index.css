@@ -113,6 +113,12 @@ body {
   background-color: #4c7e6c;
 }
 
+.main-title-text {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
 .main__cont {
   padding-top: 50px;
   margin: 0 auto;
