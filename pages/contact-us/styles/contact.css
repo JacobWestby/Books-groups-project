@@ -1,7 +1,26 @@
+body {
+  /* width: 80%; */
+  margin: 0 auto;
+  font-family: "Nobile", sans-serif;
+}
+
+/* header {
+  width: 80%;
+  margin: 0 auto;
+} */
+
+.screen {
+  height: 500px;
+  width: 80%;
+  margin: 0 auto;
+}
+
 .side-background-left {
   background-image: url(../images/träd.jpg);
-  width: 200px;
-  height: 900px;
+  width: 8%;
+  height: 1600px;
+  position: absolute;
+  top: 0px;
   float: left;
   background-size: cover;
   background-position: center;
@@ -10,8 +29,8 @@
 .side-background-right {
   float: right;
   background-image: url(../images/träd.jpg);
-  width: 199px;
-  height: 900px;
+  width: 8%;
+  height: 1600px;
   background-size: cover;
   background-position: center;
   transform: scaleX(-1);
@@ -20,36 +39,33 @@
 }
 
 .layout-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  /* display: flex;
+  justify-content: center; */
+  margin: 0 auto;
+  width: 80%;
 }
 
 .form {
-  max-width: 80%;
-  float: left;
-  position: absolute;
-  width: 1489px;
+  width: 80%;
   padding: 15px 20px;
   margin-right: 200px;
-  margin-left: 200px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  top: 15px;
+}
+
+h1 {
+  font-size: 40px;
 }
 
 .form2 {
-  max-width: 80%;
-  float: left;
+  width: 80%;
+  /* float: left; */
   position: absolute;
-  width: 1449px;
-  padding: 15px 20px;
+  padding: 15px 0px;
   background-color: #609e88;
   border-radius: 5px;
   box-shadow: 2px 2px 8px #44433b;
-  margin-right: 200px;
-  margin-left: 200px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -102,18 +118,23 @@
   color: #4c7e6c;
 }
 
-body {
+/* Contact Us */
+/* body {
   margin: 0auto;
   width: 100%;
   display: flex;
   flex-direction: column;
-}
+} */
 
+.section2 {
+  margin-top: 1rem;
+  width: 80%;
+  margin-left: 7rem;
+}
 .main {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  width: 80%;
+  justify-content: space-evenly;
 }
 
 input[type="text"],
@@ -163,9 +184,12 @@ button {
   width: 40%;
 }
 
-img {
+.bookstore {
   width: 400px;
   height: 280px;
+  border-radius: 50%;
+  position: relative;
+  left: 3rem;
 }
 
 .main2 {
@@ -174,4 +198,5 @@ img {
   justify-content: space-around;
   align-items: flex-end;
   margin-bottom: 2rem;
+  margin-top: 2rem;
 }
