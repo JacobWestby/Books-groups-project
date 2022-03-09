@@ -1,0 +1,205 @@
+body {
+  /* width: 80%; */
+  margin: 0 auto;
+  font-family: "Nobile", sans-serif;
+}
+
+.screen {
+  height: 500px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.side-background-left {
+  background-image: url(../images/träd.jpg);
+  width: 8%;
+  height: 1500px;
+  position: absolute;
+  top: 0px;
+  float: left;
+  background-size: cover;
+  background-position: center;
+}
+
+.side-background-right {
+  float: right;
+  background-image: url(../images/träd.jpg);
+  width: 8%;
+  height: 1500px;
+  background-size: cover;
+  background-position: center;
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.layout-top {
+  /* display: flex;
+  justify-content: center; */
+  margin: 0 auto;
+  width: 80%;
+}
+
+.form {
+  width: 80%;
+  padding: 15px 20px;
+  margin-right: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.form2 {
+  width: 80%;
+  /* float: left; */
+  position: absolute;
+  padding: 15px 0px;
+  background-color: #609e88;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px #44433b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 200px;
+}
+
+.loggo {
+  width: 140px;
+}
+
+.search {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.white-button1 {
+  border: 1px solid black;
+  color: white;
+  padding: 10px;
+  width: 60px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #4c7e6c;
+}
+
+.white-button1:hover {
+  cursor: grab;
+  background-color: #609e88;
+}
+
+.orange-button1 {
+  border: 1px solid black;
+  padding: 10px;
+  width: 60px;
+  background-color: #9e8860;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+.orange-button1:hover {
+  cursor: grab;
+  background-color: #609e88;
+}
+
+.hover-layout:hover {
+  cursor: grab;
+  opacity: 0.5;
+  color: #4c7e6c;
+}
+
+/* Contact Us */
+
+.section2 {
+  margin-top: 1rem;
+  width: 80%;
+  margin-left: 7rem;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #609e88;
+  padding: 20px;
+  max-width: 50%;
+}
+
+button {
+  height: 42px;
+  width: 100px;
+  background-color: #9e8860;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-family: "Nobile", sans-serif;
+}
+
+.contacts {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 30%;
+  margin-left: 30px;
+}
+
+.contacts li {
+  list-style: none;
+}
+
+.mailinglist {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 40%;
+}
+
+.bookstore {
+  width: 400px;
+  height: 280px;
+  border-radius: 50%;
+  position: relative;
+  left: 3rem;
+}
+
+.main2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+footer {
+  position: absolute;
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
