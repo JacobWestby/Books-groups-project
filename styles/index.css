@@ -1,19 +1,25 @@
 
 
 .side-background-left{
-    background-image: url(../images/bjork.jpg);
-    width: 11%;
+    background-image: url(../images/träd.jpg);
+    width: 200px;
     height: 900px;
     float: left;
     background-size: cover;
+    background-position: center;
 
 }
 
 .side-background-right{
     float: right;
-    background-image: url(../images/bjork.jpg);
+    background-image: url(../images/träd.jpg);
     width: 199px;
     height: 900px;
+    background-size: cover;
+    background-position: center;
+    transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: "FlipH";
 }
 
 .layout-top{
@@ -27,7 +33,7 @@
     max-width: 80%;
     float: left;
     position: absolute;
-	width: 1500px;
+	width: 1489px;
     padding: 15px 20px;
     margin-right: 200px;
     margin-left: 200px;
@@ -42,7 +48,7 @@
     max-width: 80%;
     float: left;
     position: absolute;
-	width: 1450px;
+	width: 1449px;
     padding: 15px 20px;
     background-color: #609e88 ;
 	border-radius: 5px;
