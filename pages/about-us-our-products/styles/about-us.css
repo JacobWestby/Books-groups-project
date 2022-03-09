@@ -1,13 +1,26 @@
 body {
-  width: 80%;
+  /* width: 80%; */
   margin: 0 auto;
   font-family: 'Nobile', sans-serif;
 }
 
+/* header {
+  width: 80%;
+  margin: 0 auto;
+} */
+
+.screen {
+  height: 500px;
+  width: 80%;
+  margin: 0 auto;
+}
+
 .side-background-left {
   background-image: url(../images/träd.jpg);
-  width: 200px;
-  height: 900px;
+  width: 8%;
+  height: 2600px;
+  position: absolute;
+  top: 0px;
   float: left;
   background-size: cover;
   background-position: center;
@@ -16,8 +29,8 @@ body {
 .side-background-right {
   float: right;
   background-image: url(../images/träd.jpg);
-  width: 199px;
-  height: 900px;
+  width: 8%;
+  height: 2600px;
   background-size: cover;
   background-position: center;
   transform: scaleX(-1);
@@ -26,36 +39,29 @@ body {
 }
 
 .layout-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  /* display: flex;
+  justify-content: center; */
+  margin: 0 auto;
+  width: 80%;
 }
 
 .form {
-  max-width: 80%;
-  float: left;
-  position: absolute;
-  width: 1489px;
+  width: 80%;
   padding: 15px 20px;
   margin-right: 200px;
-  margin-left: 200px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  top: 15px;
 }
 
 .form2 {
-  max-width: 80%;
-  float: left;
+  width: 80%;
+  /* float: left; */
   position: absolute;
-  width: 1449px;
-  padding: 15px 20px;
+  padding: 15px 0px;
   background-color: #609e88;
   border-radius: 5px;
   box-shadow: 2px 2px 8px #44433b;
-  margin-right: 200px;
-  margin-left: 200px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -108,9 +114,11 @@ body {
   color: #4c7e6c;
 }
 
+/* ABOUT US  */
+
 .about__us {
-  width: 100%;
-  margin-top: 100px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .content__cont-1,
@@ -155,18 +163,20 @@ body {
 .our__products {
   border-top: 1px solid #609e88a6;
   padding-top: 100px;
-  padding-right: 80px;
   padding-left: 80px;
   padding-bottom: 80px;
-  height: 160vh;
+  /* width: 80%; */
+  height: 140vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   background-color: #609e8810;
-  margin-bottom: 100px;
+  margin: 0 auto;
 }
 
 .our__products-cont {
+  margin: 0 auto;
+  width: 80%;
   max-height: 250px;
   display: flex;
   justify-content: space-between;
@@ -174,7 +184,7 @@ body {
 
 .our__products-cont:not(:nth-child(1)) {
   border-top: 1px solid #609e884b;
-  padding-top: 48px;
+  padding-top: 85px;
 }
 
 .our__products-text {
